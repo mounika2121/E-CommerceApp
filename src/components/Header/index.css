@@ -1,0 +1,33 @@
+.logo {
+  background: #ffe475;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  height: 30px;
+  width: 80px;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    background-color: white;
+  }
+
+  .btn {
+    box-shadow: #3a3a39;
+    border: 1px solid #cfcfcf;
+  }
+}
